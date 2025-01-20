@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     color: #33beff;
     font-weight: bold;
     font-family: 'Courier New', 'Lucida Console', monospace;
     font-size: 50px;
+    background-color:antiquewhite;
+    padding: 20px 20px;
+    text-align: center;
 }
 
 ul {
@@ -45,4 +54,28 @@ ol {
     font-family: 'Courier New', 'Lucida Console', monospace;
     font-size: 16px;
     background-color: bisque;
+}
+
+.home-h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.home-links {
+    text-align: center;
+    padding: 20px;
+    border: 10px dotted #33c9ff;
+    list-style-type: none;
+    width: 500px;
+    margin: 20px auto;
+}  
+
+.home-image {
+    display: block;
+    margin-top: 20 px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 5px solid black;
 }
